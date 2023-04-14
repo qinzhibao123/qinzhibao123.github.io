@@ -4,16 +4,13 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="test3, Test1 Test2">
-    <meta name="description" content="手动插入1：
-手动插入2：
+    <meta name="keywords" content="Typora图片插入方法比较, Test1 Test2">
+    <meta name="description" content="手动插入：右键—插入—图像—点击文件找到路径
+1![1](/asset/1.jpg)  #复制出来前面会带个图片logo，下面不显示图片，不知道为何会找到asset文件夹？
 
-上传图片：勾选.&amp;#x2F;
-上传图片: 不勾选 .&amp;#x2F;
-复制到指定路径：(无勾选为相对路径添加.&amp;#x2F;) 
 
-复制到指定路径：(勾选为相对路径添加.&amp;#x2F;)
-复制到指定路径：勾选为相对路径">
+复制到指定路径：(不勾选 为相对路径添加.&amp;#x2F;) ：
+">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -25,7 +22,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>test3 | Zhibao Qin</title>
+    <title>Typora图片插入方法比较 | Zhibao Qin</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -455,12 +452,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">test3</h1>
+                    <h1 class="description center-align post-title">Typora图片插入方法比较</h1>
                 </div>
             </div>
         </div>
@@ -482,9 +479,13 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/MarkDowm/">
+                                <span class="chip bg-color">MarkDowm</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -517,15 +518,22 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>手动插入1：</p>
-<p>手动插入2：</p>
-<p><img src="/../asset/qintest1.jpg" alt="qintest1"></p>
-<p>上传图片：勾选.&#x2F;</p>
-<p>上传图片: 不勾选 .&#x2F;</p>
-<p>复制到指定路径：(无勾选为相对路径添加.&#x2F;) </p>
-<p><img src="/./test3/3.jpg" alt="3"></p>
-<p>复制到指定路径：(勾选为相对路径添加.&#x2F;)</p>
-<p>复制到指定路径：勾选为相对路径添加 .&#x2F;<br>复制到指定路径：不勾选为相对路径添加 .&#x2F;</p>
+                <p>手动插入：右键—插入—图像—点击文件找到路径</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![1](/asset/1.jpg)  #复制出来前面会带个图片logo，下面不显示图片，不知道为何会找到asset文件夹？</span><br></pre></td></tr></table></figure>
+
+<p><img src="/asset/1.jpg" alt="1"></p>
+<p>复制到指定路径：(不勾选 为相对路径添加.&#x2F;) ：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![2](../images/test3/2.jpg)</span><br></pre></td></tr></table></figure>
+
+<p><img src="/../images/test3/2.jpg" alt="2"></p>
+<p>复制到指定路径：(勾选 为相对路径添加.&#x2F;) ：直接复制粘贴图像</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![3](./../images/test3/3.jpg)  #在hexo根目录下source/image</span><br></pre></td></tr></table></figure>
+
+<p><img src="/./../images/test3/3.jpg" alt="3"></p>
+<p>上传图片: 不勾选 .&#x2F; , 上传服务选择无</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![4](../asset/4.jpg)  #上传服务选择无，文件被上传到哪里了？</span><br></pre></td></tr></table></figure>
+
+<p><img src="/../asset/4.jpg" alt="4"></p>
 
                 
             </div>
@@ -589,7 +597,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/MarkDowm/">
+                                    <span class="chip bg-color">MarkDowm</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -666,17 +678,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2023/04/14/test5/">
+                <a href="/2023/04/14/test3/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="test5">
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Typora图片插入方法比较">
                         
-                        <span class="card-title">test5</span>
+                        <span class="card-title">Typora图片插入方法比较</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -686,9 +699,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2023-04-14
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-04-14
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -696,6 +709,15 @@
                             
                         </span>
                     </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/MarkDowm/">
+                        <span class="chip bg-color">MarkDowm</span>
+                    </a>
+                    
                 </div>
                 
             </div>
